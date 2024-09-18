@@ -16,8 +16,8 @@ function Menu({ children }) {
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">Sobre</a></li>
-                        <li><a href="#menu">Pizzas</a></li>
-                        <li><a href="#contact">Pedidos</a></li>
+                        <li><a href="#menu">Cardápio</a></li>
+                        <li><a href="#contact">Contato</a></li>
                         {children}
                     </ul>
                 </nav>
