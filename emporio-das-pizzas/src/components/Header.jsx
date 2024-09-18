@@ -1,9 +1,12 @@
 import '../css/Header.css'
 
+import Logo from '../assets/emporio-logo.jpeg'
+
 function Header() {
     return (
         <div className="header">
-            <h1>Header</h1>
+            <img src={Logo} alt="Image logo" />
+            <h1>Empório das Pizzas Itália</h1>
         </div>
     )
 }

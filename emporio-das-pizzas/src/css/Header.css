@@ -2,4 +2,24 @@
 
 .header {
     background-color: var(--cor-fundo-header);
+    color: var(--cor-texto-branco);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+    padding: 0.8vw;
+
+    font-size: 2vw;
+}
+
+.header img {
+    width: 7vw;
+    border-radius: 50%;
+}
+
+.header h1 {
+    text-shadow: 2px 4px 4px #00000073;
 }
