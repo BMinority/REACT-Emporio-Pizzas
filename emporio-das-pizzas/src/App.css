@@ -21,3 +21,7 @@
   /* Others */
   --cor-borda: #E0E0E0;
 }
+
+body {
+  background-color: var(--cor-fundo-pagina);
+}
