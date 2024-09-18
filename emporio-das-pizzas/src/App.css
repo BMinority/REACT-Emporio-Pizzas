@@ -25,3 +25,14 @@
 body {
   background-color: var(--cor-fundo-pagina);
 }
+
+h1,
+h2,
+h3 {
+  font-family: 'Italianno', cursive;
+}
+
+p,
+body {
+  font-family: 'Roboto', sans-serif;
+}
