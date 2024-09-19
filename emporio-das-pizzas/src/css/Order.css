@@ -1,0 +1,216 @@
+@import url('../App.css');
+
+.order-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.order-section p {
+    text-shadow: none;
+    color: var(--cor-texto-secundario);
+}
+
+/* Cabeçalho */
+.order-section h3 {
+    text-align: center;
+    color: #333;
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+
+/* Formulário de Endereço */
+.address-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.address-form label {
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #333;
+}
+
+.address-form input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Formulário de Sabores */
+.flavors-form {
+    margin-bottom: 20px;
+}
+
+.flavors-form h4 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.flavors-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.flavor-option {
+    display: flex;
+    align-items: center;
+}
+
+.flavor-option input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.flavor-option label {
+    color: #333;
+    font-size: 14px;
+}
+
+/* Botões */
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Resumo dos Pedidos */
+.order-summary {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.order-summary h4 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.order-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-summary li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.order-summary li div {
+    max-width: 70%;
+}
+
+.order-summary li button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+}
+
+.order-summary li button:hover {
+    background-color: #c82333;
+}
+
+/* Botões do WhatsApp */
+.whatsapp-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.whatsapp-buttons a {
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-buttons a:hover {
+    background-color: #20a856;
+}
+
+.whatsapp-buttons i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .order-section {
+        padding: 15px;
+    }
+
+    .address-form label {
+        flex: 1 1 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .whatsapp-buttons {
+        flex-direction: column;
+    }
+
+    .whatsapp-buttons a {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-section h3 {
+        font-size: 20px;
+    }
+
+    .order-summary li div {
+        max-width: 60%;
+    }
+
+    .whatsapp-buttons a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .whatsapp-buttons i {
+        font-size: 18px;
+    }
+}

@@ -1,6 +1,6 @@
 import './App.css'
 import Cardapio from './components/Cardapio'
-import Contato from './components/Contato'
+import Order from './components/Order'
 // import Header from './components/Header'
 import Home from './components/Home'
 import Menu from './components/Menu'
@@ -19,7 +19,7 @@ function App() {
         <Sobre />
         <hr />
         <Cardapio />
-        <Contato />
+        <Order />
       </main>
     </>
   )

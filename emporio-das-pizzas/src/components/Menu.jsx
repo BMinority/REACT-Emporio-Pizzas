@@ -23,7 +23,7 @@ function Menu({ children }) {
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#menu">Cardápio</a></li>
-                        <li><a href="#contact">Contato</a></li>
+                        <li><a href="#order">Pedidos</a></li>
                         {children}
                     </ul>
                 </nav>
