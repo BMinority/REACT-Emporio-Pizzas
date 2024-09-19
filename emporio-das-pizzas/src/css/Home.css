@@ -22,7 +22,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
 }
 
 .home-section>* {
@@ -40,19 +40,17 @@
 
 .home-text span {
     padding: 0 1vw;
-    background-color: var(--cor-vermelho-escuro);
     border-radius: 14px;
-
-    box-shadow: 2px 4px 6px #0000005b;
 }
 
 .home-text span h2 {
-    font-size: 4vw;
-    color: var(--cor-amarelo-destaque);
+    font-size: 8vw;
+    font-weight: 800;
+    color: var(--cor-texto-branco);
 }
 
 .home-text p {
-    font-size: 1.7vw;
+    font-size: 2vw;
 }
 
 .home-text h2,
@@ -63,10 +61,22 @@ p {
 }
 
 /*MEDIA*/
-@media (max-width: 430px) {
+@media (max-width: 768px) {
     .home-section {
         width: 100%;
         height: 80vw;
+    }
+
+    .home-text p {
+        font-size: 3vw;
+        text-align: center;
+    }
+}
+
+@media (max-width: 430px) {
+    .home-section {
+        width: 100%;
+        height: 100vw;
     }
 
     .home-section span {
@@ -78,11 +88,11 @@ p {
     }
 
     .home-text span h2 {
-        font-size: 8vw;
+        font-size: 12vw;
     }
 
     .home-text p {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .home-text h2,
