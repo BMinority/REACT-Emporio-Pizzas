@@ -15,8 +15,10 @@ function Menu({ children }) {
         <header className="menu-header">
             <div className="menu-container">
                 <div className="menu-logo">
-                    <img src={Logo} alt="imagem" />
-                    <h3>Empório das Pizzas</h3>
+                    <a href="#home">
+                        <img src={Logo} alt="imagem" />
+                        <h3>Empório das Pizzas</h3>
+                    </a>
                 </div>
                 <nav className={`menu-nav ${menuOpen ? 'open' : ''}`}>
                     <ul>
