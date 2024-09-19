@@ -10,7 +10,3 @@
     color: var(--cor-texto-secundario);
     text-shadow: none;
 }
-
-.about-section hr {
-    margin-top: 2vw;
-}
