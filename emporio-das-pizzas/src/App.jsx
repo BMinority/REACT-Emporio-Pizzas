@@ -17,6 +17,7 @@ function App() {
       <main>
         <Home />
         <Sobre />
+        <hr />
         <Cardapio />
         <Contato />
       </main>

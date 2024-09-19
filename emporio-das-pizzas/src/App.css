@@ -45,3 +45,8 @@ body h2 {
 body section {
   padding: 5vw;
 }
+
+body hr {
+  width: 90%;
+  margin-left: 5%;
+}
