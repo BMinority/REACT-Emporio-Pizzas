@@ -1,0 +1,36 @@
+@import url('../App.css');
+
+.home-section {
+    background-image: url('../assets/Leonardo_Phoenix_A_cinematic_mouthwatering_photograph_of_a_fre_0.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: 20vw;
+}
+
+.home-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+    background-color: #0000005e;
+}
+
+.home-text h2 {
+    font-size: 4vw;
+}
+
+.home-text p {
+    font-size: 1.7vw;
+}
+
+.home-text h2,
+p {
+    padding: 0.5vw;
+    color: var(--cor-texto-branco);
+    text-shadow: 2px 4px 4px #000000a9;
+}
