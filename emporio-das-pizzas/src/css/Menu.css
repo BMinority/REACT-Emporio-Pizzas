@@ -4,7 +4,7 @@
 .menu-header {
     width: 100%;
     background-color: var(--cor-verde);
-    padding: 20px;
+    padding: 18px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@
 .menu-logo a {
     display: flex;
     align-items: center;
-    color: var(--cor-texto-branco);
+    color: var(--cor-amarelo-claro);
     gap: 1vw;
     text-decoration: none;
 }
@@ -94,7 +94,7 @@
 
 @media (max-width: 430px) {
     .menu-logo {
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     .menu-logo img {
