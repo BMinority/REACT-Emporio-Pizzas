@@ -154,7 +154,7 @@ function Contato() {
                         Estado:
                         <input type="text" name="estado" value={endereco.estado} onChange={handleEnderecoChange} required />
                     </label>
-                    <div>
+                    <div className='address-btn'>
                         <button onClick={salvarEndereco}>Salvar Endereço</button>
                         <button onClick={() => setEndereco({
                             nome: '', cep: '', rua: '', numero: '', complemento: '',
