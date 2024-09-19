@@ -1,0 +1,165 @@
+@import url('../App.css');
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--cor-vermelho-escuro);
+    color: var(--cor-texto-branco);
+}
+
+.menu-section h2 {
+    color: var(--cor-texto-branco);
+    background-color: var(--cor-verde);
+    padding: 0.5vw 1vw;
+    margin-bottom: 2vw;
+    border-radius: 14px;
+    text-shadow: 1px 2px 4px #0000009c;
+    box-shadow: 1px 2px 4px #0000009c;
+
+    font-size: 4vw;
+}
+
+.menu-section h3 {
+    font-size: 3vw;
+
+    color: var(--cor-amarelo-destaque);
+    padding: 5vw;
+}
+
+.menu-section p {
+    text-shadow: none;
+    text-align: center;
+}
+
+.menu-section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 1vw;
+}
+
+.menu-section ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+
+    border-radius: 14px;
+    box-shadow: 1px 2px 4px #0000009c;
+    padding: 1vw;
+}
+
+.image-pizza {
+    width: 100%;
+    height: 15vw;
+    border-radius: 14px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*tradicionais*/
+
+.menu-section .calabresa {
+    background-image: url('../assets/Leonardo_Phoenix_A_cinematic_mouthwatering_photograph_of_a_fre_0.jpg');
+}
+
+.menu-section .portuguesa {
+    background-image: url('../assets/Leonardo_Phoenix_a_cinematic_highcontrast_photograph_of_a_fres_0.jpg');
+}
+
+.menu-section .frango {
+    background-image: url('../assets/Leonardo_Phoenix_a_dramatic_warmly_lit_cinematic_photograph_of_0.jpg');
+}
+
+.menu-section .frangoQueijo {
+    background-image: url('../assets//pikaso_texttoimage_a-shredded-chicken-and-catupiry-cheese-pizza-image.jpeg');
+}
+
+.menu-section .queijo {
+    background-image: url('../assets/city-259794_1280.jpg');
+}
+
+/*doces*/
+
+.menu-section .doisAmores {
+    background-image: url('../assets/pizza-5311270_1280.jpg');
+}
+
+.MM {
+    background-image: url('../assets/pikaso_texttoimage_a-sweet-pizza-with-MM-and-lots-of-chocolate-image-.jpeg');
+}
+
+.brigadeiro {
+    background-image: url('../assets/pizza-4741312_1280.jpg');
+}
+
+.beijinho {
+    background-image: url('../assets/pikaso_texttoimage_a-sweet-pizza-with-white-chocolate-and-grated-coco.jpeg');
+}
+
+.romeuEJulieta {
+    background-image: url('../assets/pikaso_texttoimage_a-sweet-pizza-with-slices-of-guava-jam-and-plenty-.jpeg');
+}
+
+/*especiais*/
+
+.menu-section .camarao {
+    background-image: url('../assets//Leonardo_Phoenix_a_dramatically_lit_highcontrast_cinematic_pho_1.jpg');
+}
+
+.menu-section .atum {
+    background-image: url('../assets/pikaso_texttoimage_a-pizza-with-shredded-tuna-and-lots-of-cheese-imag.jpeg');
+}
+
+.menu-section .peru {
+    background-image: url('../assets/pikaso_texttoimage_a-pizza-with-shredded-turkey-breast-and-lots-of-ch.jpeg');
+}
+
+.menu-section .lombinho {
+    background-image: url('../assets/pikaso_texttoimage_a-pizza-with-thin-slices-of-pork-spread-and-plenty.jpeg');
+}
+
+.menu-section .charque {
+    background-image: url('../assets/Leonardo_Phoenix_a_cinematic_highcontrast_photograph_of_a_fres_1.jpg');
+}
+
+.menu-section .carneDeSol {
+    background-image: url('../assets/pikaso_texttoimage_a-pizza-with-shredded-carne-de-sol-common-meat-in-.jpeg');
+}
+
+.menu-section .queijoDoReino {
+    background-image: url('../assets/pikaso_texttoimage_a-pizza-with-catupiry-cheese-mozzarella-cheese-che.jpeg');
+}
+
+.menu-section .bacon {
+    background-image: url('../assets/pikaso_texttoimage_a-pizza-with-bacon-and-lots-of-cheese-image-in-the.jpeg');
+}
+
+@media (max-width: 430px) {
+    .menu-section h2 {
+        font-size: 10vw;
+    }
+
+    .menu-section h3 {
+        font-size: 10vw;
+    }
+
+    .menu-section ul {
+        grid-template-columns: 1fr 1fr;
+        gap: 3vw;
+    }
+
+    .menu-section ul li {
+        width: 45vw;
+    }
+
+    .image-pizza {
+        width: 100%;
+        height: 30vw;
+        border-radius: 14px;
+    }
+}

@@ -30,6 +30,7 @@ h1,
 h2,
 h3 {
   font-family: 'Italianno', cursive;
+  font-weight: 100;
 }
 
 p,
@@ -38,7 +39,7 @@ body {
 }
 
 body h2 {
-  font-size: 2.5vw;
+  font-size: 3vw;
   color: var(--cor-texto-primario);
 }
 
