@@ -5,10 +5,24 @@ function Cardapio() {
 
             <h3>Pizzas Tradicionais</h3>
             <ul>
-                <li>Calabresa c/ cheddar (queijo, cebola, calabresa, cheddar)</li>
-                <li>Calabresa (queijo, cebola e calabresa)</li>
-                <li>Portuguesa (queijo, presunto, cebola, milho e ovo)</li>
-                {/* Continue listando as pizzas tradicionais... */}
+                <li>Calabresa c/ cheddar (queijo, cebola, calabresa, cheddar)
+                </li>
+                <li>Calabresa (queijo, cebola e calabresa)
+                </li>
+                <li>Portuguesa (queijo, presunto, cebola, milho e ovo)
+                </li>
+                <li>Frango com bacon (frango, queijo e bacon)
+                </li>
+                <li>Frango com cheddar (frango, queijo e cheddar)
+                </li>
+                <li>Frango com catupiry (frango, queijo e catupiry)
+                </li>
+                <li>Frango (frango e queijo)
+                </li>
+                <li>2 Queijos (catupiry e mussarela)
+                </li>
+                <li>4 Queijos (catupiry, mussarela, cheddar e parmesão)
+                </li>
             </ul>
 
             <h3>Pizzas Doces</h3>
