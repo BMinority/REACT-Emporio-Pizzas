@@ -12,6 +12,8 @@ function Sobre() {
             <p>
                 Acompanhe nossas promoções no Instagram: <a href="https://www.instagram.com/emporiodaspizzasitalia_oficial/">@emporiodaspizzasitalia_oficial</a>
             </p>
+
+            <hr />
         </section>
     )
 }
