@@ -2,6 +2,8 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 import '../css/Menu.css';
 
+import Logo from "../assets/emporio-logo.jpeg"
+
 function Menu({ children }) {
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -12,6 +14,10 @@ function Menu({ children }) {
     return (
         <header className="menu-header">
             <div className="menu-container">
+                <div className="menu-logo">
+                    <img src={Logo} alt="imagem" />
+                    <h3>Empório das Pizzas</h3>
+                </div>
                 <nav className={`menu-nav ${menuOpen ? 'open' : ''}`}>
                     <ul>
                         <li><a href="#home">Home</a></li>
