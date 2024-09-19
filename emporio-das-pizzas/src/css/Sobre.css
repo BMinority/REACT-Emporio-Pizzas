@@ -4,10 +4,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 30vw;
+    height: 35vw;
 }
 
 .about-section p {
     color: var(--cor-texto-secundario);
     text-shadow: none;
+    font-size: 1.5vw;
+}
+
+.about-section h2 {
+    font-size: 4vw;
 }
