@@ -34,3 +34,25 @@ p {
     color: var(--cor-texto-branco);
     text-shadow: 2px 4px 4px #000000a9;
 }
+
+/*MEDIA*/
+@media (max-width: 430px) {
+    .home-section {
+        width: 100%;
+        height: 50vw;
+    }
+
+    .home-text h2 {
+        font-size: 8vw;
+    }
+
+    .home-text p {
+        font-size: 4vw;
+    }
+
+    .home-text h2,
+    p {
+        padding: 0.5vw;
+        text-align: center;
+    }
+}
