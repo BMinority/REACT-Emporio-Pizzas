@@ -36,3 +36,11 @@ p,
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+body h2 {
+  font-size: 2.5vw;
+}
+
+body section {
+  padding: 1vw;
+}

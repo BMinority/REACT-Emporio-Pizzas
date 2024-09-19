@@ -1,3 +1,4 @@
+import '../css/Sobre.css'
 function Sobre() {
     return (
         <section id="about" className="about-section">
