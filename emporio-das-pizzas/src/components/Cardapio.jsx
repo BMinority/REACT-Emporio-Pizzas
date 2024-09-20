@@ -1,4 +1,5 @@
 import '../css/Cardapio.css'
+import Prices from './Prices'
 
 function Cardapio() {
     return (
@@ -214,6 +215,7 @@ function Cardapio() {
                     </p>
                 </li>
             </ul>
+            <Prices />
         </section>
     )
 }

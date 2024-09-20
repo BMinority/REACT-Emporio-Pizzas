@@ -75,8 +75,7 @@ p {
 
 @media (max-width: 430px) {
     .home-section {
-        width: 100%;
-        height: 100vw;
+        display: none;
     }
 
     .home-section span {

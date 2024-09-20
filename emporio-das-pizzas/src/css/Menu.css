@@ -93,6 +93,12 @@
 }
 
 @media (max-width: 430px) {
+
+    .home-btn,
+    .about-btn {
+        display: none;
+    }
+
     .menu-logo {
         font-size: 6vw;
     }

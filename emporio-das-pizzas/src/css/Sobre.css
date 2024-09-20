@@ -19,8 +19,7 @@
 
 @media (max-width: 430px) {
     .about-section {
-        height: 100vw;
-        gap: 2vw;
+        display: none;
     }
 
     .about-section h2 {

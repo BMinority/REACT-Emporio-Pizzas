@@ -1,0 +1,44 @@
+@import url('../App.css');
+
+.promo-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+
+.promo-section a {
+    text-decoration: none;
+    background-color: #33e010;
+    border-radius: 14px;
+    color: var(--cor-verde-escuro);
+    padding: 1vw;
+}
+
+.promo-section p {
+    font-size: 1.5vw;
+}
+
+.promo-whats-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1vw;
+}
+
+@media (max-width: 430px) {
+    .promo-section {
+        gap: 5vw;
+    }
+
+    .promo-section p {
+        font-size: 4.7vw;
+    }
+
+    .promo-section a {
+        padding: 2vw;
+    }
+
+    .promo-whats-btn {
+        grid-template-columns: 1fr;
+        gap: 7vw;
+    }
+}

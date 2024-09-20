@@ -1,0 +1,25 @@
+@import url('../App.css');
+
+.prices-container {
+    padding-top: 5vw;
+}
+
+.prices-container h2 {
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.prices ul {
+    display: flex;
+    width: 100%;
+    font-size: 2vw;
+    color: var(--cor-amarelo-destaque);
+}
+
+/*MEDIA*/
+@media (max-width: 430px) {
+    .prices ul {
+        font-size: 4.5vw;
+    }
+}
