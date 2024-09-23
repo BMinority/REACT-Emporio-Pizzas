@@ -7,7 +7,7 @@ function Promo() {
 
     return (
         <section id="promocoes" className="promo-section">
-            <h2>Promoção do Dia</h2>
+            <h2>Promoção do Dia - De Segunda à Sexta</h2>
             <p>Consulte nossas promoções do dia pelo WhatsApp:</p>
             <div className='promo-whats-btn'>
                 <p>
