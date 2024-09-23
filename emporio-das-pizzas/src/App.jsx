@@ -21,6 +21,9 @@ function App() {
         <Cardapio />
         <Order />
       </main>
+      <footer>
+        <p>© 2024 Bruno Coelho. Todos os direitos reservados.</p>
+      </footer>
     </>
   )
 }

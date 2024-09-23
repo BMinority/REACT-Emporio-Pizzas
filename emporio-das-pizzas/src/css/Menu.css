@@ -29,10 +29,7 @@
     gap: 2vw;
 
     font-size: 2vw;
-    color: var(--cor-texto-branco);
-    background-color: var(--cor-vermelho);
     border-radius: 35px;
-    padding-right: 2vw;
     box-shadow: 1px 2px 4px #00000046;
 }
 
@@ -46,7 +43,7 @@
 
 .menu-logo img {
     width: 5vw;
-    border-radius: 50%;
+    border-radius: 14px;
 }
 
 .menu-nav {

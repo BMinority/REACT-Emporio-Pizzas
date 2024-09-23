@@ -2,8 +2,8 @@ import '../css/Promo.css'
 
 function Promo() {
     // URLs do WhatsApp para os dois números da pizzaria
-    const whatsappUrl01 = "https://api.whatsapp.com/send?phone=5581988813531&text=Olá, gostaria de saber as promoções do dia.";
-    const whatsappUrl02 = "https://api.whatsapp.com/send?phone=5581988241010&text=Olá, gostaria de saber as promoções do dia.";
+    const whatsappUrl01 = "https://api.whatsapp.com/send?phone=5581989206365&text=Olá, gostaria de saber as promoções do dia.";
+    const whatsappUrl02 = "https://api.whatsapp.com/send?phone=5581989206365&text=Olá, gostaria de saber as promoções do dia.";
 
     return (
         <section id="promocoes" className="promo-section">
@@ -12,12 +12,12 @@ function Promo() {
             <div className='promo-whats-btn'>
                 <p>
                     <a href={whatsappUrl01} target="_blank" rel="noopener noreferrer">
-                        <i className="fa-brands fa-whatsapp"></i> (81) 98881-3531
+                        <i className="fa-brands fa-whatsapp"></i> (81) 98920-6365
                     </a>
                 </p>
                 <p>
                     <a href={whatsappUrl02} target="_blank" rel="noopener noreferrer">
-                        <i className="fa-brands fa-whatsapp"></i> (81) 98824-1010
+                        <i className="fa-brands fa-whatsapp"></i> (81) 98920-6365
                     </a>
                 </p>
             </div>

@@ -30,7 +30,7 @@ function Relogio({ setAberto }) {
 
     return (
         <div className="relogio-container">
-            <h3>Hora Atual: {horaAtual.toLocaleTimeString()}</h3>
+            <h3>Horário: {horaAtual.toLocaleTimeString()}</h3>
             <h4 style={estiloStatus}>Status: {statusPizzaria}</h4>
         </div>
     );

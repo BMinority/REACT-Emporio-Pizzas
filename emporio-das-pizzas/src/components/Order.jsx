@@ -106,8 +106,8 @@ function Pedidos() {
 
     // URLs de WhatsApp
     const mensagem = encodeURIComponent(gerarMensagemWhatsApp());
-    const whatsappUrl01 = `https://wa.me/5581988813531?text=${mensagem}`;
-    const whatsappUrl02 = `https://wa.me/5581988241010?text=${mensagem}`;
+    const whatsappUrl01 = `https://wa.me/5581989206365?text=${mensagem}`;
+    const whatsappUrl02 = `https://wa.me/5581989206365?text=${mensagem}`;
 
     return (
         <section id="order" className="order-section">
@@ -210,10 +210,10 @@ function Pedidos() {
 
                     <div className="whatsapp-buttons">
                         <a href={whatsappUrl01} target="_blank" rel="noopener noreferrer">
-                            Enviar para (81) 98881-3531
+                            Enviar para (81) 98920-6365
                         </a>
                         <a href={whatsappUrl02} target="_blank" rel="noopener noreferrer">
-                            Enviar para (81) 98824-1010
+                            Enviar para (81) 98920-6365
                         </a>
                     </div>
                 </>

@@ -56,3 +56,13 @@ body hr {
 body li {
   list-style: none;
 }
+
+footer {
+  background-color: var(--cor-vermelho-escuro);
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+  text-shadow: none;
+}
