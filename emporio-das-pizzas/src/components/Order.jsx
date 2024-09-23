@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../css/Order.css';
 
-function Contato() {
+function Pedidos() {
     // Estados para o Formulário de Endereço
     const [endereco, setEndereco] = useState({
         nome: '',
@@ -228,4 +228,4 @@ function Contato() {
     );
 }
 
-export default Contato;
+export default Pedidos;
