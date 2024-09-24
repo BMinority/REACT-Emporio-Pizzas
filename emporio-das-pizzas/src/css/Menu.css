@@ -42,8 +42,9 @@
 }
 
 .menu-logo img {
-    width: 5vw;
+    width: 4.3vw;
     border-radius: 14px;
+    box-shadow: 1px 3px 3px #00000069;
 }
 
 .menu-nav {
